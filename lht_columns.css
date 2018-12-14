@@ -6,12 +6,23 @@
    Case Problem 3
 
    Columns Style Sheet
-   Author: 
-   Date:   
+   Author: Alex nguyen
+   Date:   12.14.18
 
    Filename:   lht_columns.css
 
 */
+article {
+    column-width: 260px;
+    column-gap: 20px;
+    column-rule: 1px solid rgb(154, 65, 31);
+    widows: 2;
+    orphans: 2;
+}
+
+article h1 {
+    column-span: all;
+}
 
 
 
