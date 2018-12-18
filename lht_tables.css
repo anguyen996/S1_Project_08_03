@@ -65,7 +65,8 @@
 @media only screen and (min-width: 641px) {
 
     table {
-        background: url(lht_photo1.png) no-repeat;
+        background: url('lht_photo1.png')no-repeat;
+        background-size: 40%;
         background-position: bottom right;
         border: 6px double rgb(154, 64, 3);
         border-collapse: collapse;
@@ -79,7 +80,7 @@
         font-weight: normal;
         padding: 5px;
         vertical-align: top;
-        width: 14.20%;
+        width: 14.28%;
         word-wrap: break-word;
     }
 
